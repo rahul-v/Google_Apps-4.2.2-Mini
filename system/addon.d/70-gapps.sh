@@ -7,25 +7,26 @@
 list_files() {
 cat <<EOF
 app/ChromeBookmarksSyncAdapter.apk
+app/ConfigUpdater.apk
+app/GenieWidget.apk
 app/GmsCore.apk
 app/GoogleBackupTransport.apk
-app/GoogleContactsSyncAdapter.apk
 app/GoogleCalendarSyncAdapter.apk
-app/GoogleCalendar.apk
+app/GoogleContactsSyncAdapter.apk
 app/GoogleFeedback.apk
 app/GoogleLoginService.apk
-app/GoogleNow.apk
-app/GoogleNowVoiceSearch.apk
 app/GooglePartnerSetup.apk
 app/GoogleServicesFramework.apk
 app/GoogleTTS.apk
+app/LatinImeDictionaryPack.apk
 app/MediaUploader.apk
 app/NetworkLocation.apk
 app/OneTimeInitializer.apk
 app/Phonesky.apk
-app/SetupWizard.apk
+app/QuickSearchBox.apk
+app/SetupWizard.apk app/Provision.apk
 app/Talk.apk
-app/VoiceSearch.apk
+app/Talkback.apk
 app/VoiceSearchStub.apk
 etc/permissions/com.google.android.maps.xml
 etc/permissions/com.google.android.media.effects.xml
@@ -40,15 +41,13 @@ lib/libfilterpack_facedetect.so
 lib/libfrsdk.so
 lib/libgcomm_jni.so
 lib/libgoogle_recognizer_jni.so
-lib/libgoogle_recognizer_jni_l.so
 lib/libgtalk_jni.so
 lib/libgtalk_stabilize.so
-lib/libjni_latinimegoogle.so
-lib/libpatts_engine_jni_api.so
+lib/liblightcycle.so
 lib/libspeexwrapper.so
-lib/videochat_stabilize.so
-lib/voicesearch.so
 lib/libvorbisencoder.so
+lib/libpatts_engine_jni_api.so
+lib/libjni_latinime.so
 tts/lang_pico/de-DE_gl0_sg.bin
 tts/lang_pico/de-DE_ta.bin
 tts/lang_pico/es-ES_ta.bin
